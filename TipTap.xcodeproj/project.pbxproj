@@ -14,6 +14,7 @@
 		CBE0270D1C1EFA3A00379BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE0270B1C1EFA3A00379BE0 /* LaunchScreen.storyboard */; };
 		CBE027181C1EFA3A00379BE0 /* TipTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE027171C1EFA3A00379BE0 /* TipTapTests.swift */; };
 		CBE027231C1EFA3A00379BE0 /* TipTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE027221C1EFA3A00379BE0 /* TipTapUITests.swift */; };
+		CBE027351C1F2BB700379BE0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE027341C1F2BB700379BE0 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CBE0271E1C1EFA3A00379BE0 /* TipTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipTapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE027221C1EFA3A00379BE0 /* TipTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTapUITests.swift; sourceTree = "<group>"; };
 		CBE027241C1EFA3A00379BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE027341C1F2BB700379BE0 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		CBE027011C1EFA3A00379BE0 /* TipTap */ = {
 			isa = PBXGroup;
 			children = (
+				CBE027341C1F2BB700379BE0 /* SettingViewController.swift */,
 				CBE027021C1EFA3A00379BE0 /* AppDelegate.swift */,
 				CBE027041C1EFA3A00379BE0 /* ViewController.swift */,
 				CBE027061C1EFA3A00379BE0 /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				CBE027051C1EFA3A00379BE0 /* ViewController.swift in Sources */,
 				CBE027031C1EFA3A00379BE0 /* AppDelegate.swift in Sources */,
+				CBE027351C1F2BB700379BE0 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipTap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CS-A.TipTap";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipTap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CS-A.TipTap";
 				PRODUCT_NAME = "$(TARGET_NAME)";
